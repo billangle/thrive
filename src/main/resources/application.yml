@@ -1,0 +1,14 @@
+spring:
+  datasource.url: jdbc:postgresql://localhost:5432/server-thrive
+  datasource.username: postgres
+
+server:
+  port: 8899
+
+management:
+  server.port: 9982
+
+
+springdoc:
+  swagger-ui:
+    filter: true
